@@ -1,0 +1,131 @@
+
+// Изменения размера
+@mixin media($size) {
+  @media only screen and (max-width: map-get($media-size, $size)) {
+    @content;
+  }
+}
+@mixin media-custom($size) {
+  @media only screen and (max-width: $size + px) {
+    @content;
+  }
+}
+
+// Шовер
+@mixin hover{
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  &:active:focus,
+  &:active:hover,
+  &.active:focus,
+  &.active:hover {
+    @content;
+  }
+}
+
+//
+@mixin border-radius ($size) {
+  -moz-border-radius: $size;
+  -webkit-border-radius: $size;
+  border-radius: $size;
+}
+
+// Анимации
+@mixin transition($time,$animate) {
+  @if $animate  == false {
+    $animate: false;
+  }
+  -webkit-transition: all #{$time}s #{$animate};
+  -moz-transition: all #{$time}s #{$animate};
+  -o-transition: all #{$time}s #{$animate};
+  -ms-transition: all #{$time}s #{$animate};
+  transition: all #{$time}s #{$animate};
+}
+@mixin transition-custom($content,$time,$animate) {
+  -webkit-transition: #{$content} #{$time}s $animate;
+  -moz-transition: #{$content} #{$time}s $animate;
+  -o-transition: #{$content} #{$time}s $animate;
+  -ms-transition: #{$content} #{$time}s $animate;
+  transition: #{$content} #{$time}s $animate;
+}
+@mixin transform($content) {
+  -webkit-transform: $content;
+  -ms-transform: $content;
+  transform: $content;
+}
+
+// bg
+@mixin bg($horizotal: center, $vertical: false, $size: cover, $color: transparent, $repeat: no-repeat) {
+
+  @if $horizotal != false and $vertical == false {
+    background-position: $horizotal $horizotal;
+  } @else {
+    background-position: $horizotal $vertical;
+  }
+  @if $size != false {
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -o-background-size: $size;
+    background-size: $size;
+  }
+
+  @if $color != false {
+    background-color: $color;
+  }
+
+  background-repeat: $repeat;
+}
+
+// Тени
+@mixin shadow($inset: false, $x: 0px, $y: 0px, $blur: 4px, $spread: 0, $color: black, $opacity: 0.5) {
+  @if $inset != false {$inset: 'inset'}
+  -webkit-box-shadow: $inset $x $y $blur $spread rgba(red($color), green($color), blue($color), $opacity);
+  -moz-box-shadow: $inset $x $y $blur $spread rgba(red($color), green($color), blue($color), $opacity);
+  box-shadow: $inset $x $y $blur $spread rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Щрифты
+@mixin font($name, $weight: null, $style: null, $art: null) {
+  $path: $name;
+  $file-name: null;
+
+  @if($art != '') {
+    $file-name: $path+'-'+$art;
+  }@else{
+    $file-name: $path;
+  }
+
+  @font-face {
+    font-family: #{$name};
+    src:
+            url("../fonts/#{$path}/#{$file-name}.eot");
+    src:
+            url("../fonts/#{$path}/#{$file-name}.eot") format("embedded-opentype"),
+            url("../fonts/#{$path}/#{$file-name}.woff2") format("woff2"),
+            url("../fonts/#{$path}/#{$file-name}.woff") format("woff"),
+            url("../fonts/#{$path}/#{$file-name}.ttf") format("truetype");
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+// Статусов
+@mixin status($style: null , $style-status: null) {
+  @each $name, $color in $status {
+    $class: "_";
+    @if($name == '') {
+      $class: '';
+    }
+    @if($style-status == active) {
+      $color: nth($color,1);
+    }@else{
+      $color: nth($color,1);
+    }
+
+    &#{$class}#{$name}{
+      #{$style} : #{$color}
+    }
+  }
+}

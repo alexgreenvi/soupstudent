@@ -1,0 +1,160 @@
+.header {
+    position: relative;
+    color: #fff;
+    background: url(/assets/img/_header/bg.jpg) center;
+    background-size: cover;
+    min-height: 80px;
+
+    &_index {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: transparent;
+
+        .header__logo {
+            top: 0;
+        }
+        .header__search {
+            position: relative;
+            top: 300px;
+            width: 600px;
+            margin: 0 65px!important;
+
+            @include media(lg) {
+                left: -100px;
+            }
+            @include media(md) {
+                left: -25px;
+            }
+            &__input {
+                border: 0;
+            }
+        }
+    }
+
+    & .container {
+        position: relative;
+    }
+
+    &__logo {
+        position: absolute;
+        left: 75px;
+        top: -24px;
+        z-index: 1;
+        @include transition(0.5, ease);
+
+        & img {
+            display: inline-block;
+        }
+        @include media(lg){
+            top: -20px;
+            left: 0;
+            width: 102px;
+        }
+        @include media(md){
+            top: -21px;
+            left: 0;
+        }
+        @include media(sm){
+            top: -22px;
+        }
+    }
+    &__search {
+        position: relative;
+        z-index: 2;
+        &__input {
+            width: 100%;
+            height: 50px;
+            margin: 15px 0;
+            padding: 0 45px 0 20px;
+            background: #FFF;
+            font-size: 13px;
+            color: #000000;
+            border: 0;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02), 0 10px 30px -15px rgba(0,0,0,0.2);
+            border-left: 4px solid #7c7a6c;
+            @include media(sm){
+                background: rgba(0,0,0,0.5);
+                border: 0;
+                color: #fff;
+                border-radius: 0;
+                margin-bottom: 0;
+            }
+        }
+        &__button {
+            position: absolute;
+            top: 27px;
+            right: 20px;
+            border: 0;
+            cursor: pointer;
+            color: #7f7f7f;
+            background: transparent;
+            @include media(lg){
+                right: 5px;
+            }
+            @include media(sm){
+                display: none;
+            }
+
+            & svg {
+                width: 27px;
+            }
+            @include hover {
+                color: $color-link-hover;
+            }
+        }
+        &__list {
+            position: absolute;
+            top: 65px;
+            z-index: 1;
+            background: #fff;
+            width: 100%;
+            padding: 10px;
+            box-shadow: 0 2px 2px #ccc;
+            @include transition(2,'');
+            overflow: hidden;
+            display: none;
+
+            @include media(sm){
+                top: auto;
+                position: relative;
+                margin: 0;
+            }
+
+            &.active {
+                display: block;
+            }
+            &__footer {
+                color: $color;
+            }
+
+        }
+
+        @include media(lg) {
+            margin-left: 100px;
+        }
+        @include media(md){
+            margin-left: 110px;
+        }
+        @include media(sm){
+            margin-left: 0;
+            margin-top: 2px;
+        }
+    }
+    &__donate {
+        margin: 20px auto;
+        position: relative;
+        z-index: 2;
+        & a {
+            width: 100%;
+            padding: 11px 0;
+            font-size: 14px;
+            font-weight: 800;
+            background: $color-info;
+            color: #fff;
+            @include hover {
+                background: $color-info-hover;
+            }
+        }
+    }
+}

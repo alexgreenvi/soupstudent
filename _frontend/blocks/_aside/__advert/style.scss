@@ -1,0 +1,16 @@
+&__advert {
+  position: relative;
+  margin-top: 15px;
+  margin-right: -15px;
+  &__item {
+    &__text {
+      text-align: right;
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      top: 0;
+      right: 10px;
+      position: absolute;
+    }
+  }
+}

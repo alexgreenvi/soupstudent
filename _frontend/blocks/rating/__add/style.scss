@@ -1,0 +1,123 @@
+&__add {
+  &__wrap {
+    @extend .row
+  }
+  &__item {
+    @extend .col-12;
+    @include media(lg) {
+      width: 100%;
+    }
+
+    &__name {
+      padding-right: 70px;
+      margin-bottom: 5px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #6b6969;
+      @include media(xs){
+        min-height: 45px;
+        padding-top: 5px;
+      }
+    }
+    &__description {
+      min-height: 80px;
+      padding-right: 70px;
+      margin-bottom: 5px;
+      font-size: 11px;
+
+      color: #bbb;
+      @include media(xs){
+        min-height: 45px;
+        padding-top: 5px;
+      }
+    }
+    &__stars {
+      margin-bottom: 10px;
+      padding-right: 60px;
+      @include media(lg) {
+        margin-bottom: 5px;
+      }
+      @include media(xs){
+        padding-right: 0;
+      }
+    }
+    &__star {
+      display: inline-block;
+      word-spacing: normal;
+      color: #e2dede;
+      text-align: center;
+      cursor: pointer;
+      @include transition( 0.3, ease-in-out);
+
+      &__icon {
+        width: 17px;
+        margin: 3px 0;
+        @include media(lg) {
+          width: 25px;
+        }
+        @include media(md){
+          width: 19px;
+        }
+        @include media(xs){
+          width: 21px;
+        }
+      }
+      &__number {
+        display: block;
+        font-size: 11px;
+      }
+      &.active {
+        color: #ff3636;
+      }
+      &.my {
+        color: #fbdd5c;
+        @include transform(scale(1.4));
+      }
+      &.hover {
+        color: #fbdd5c;
+        @include transform(scale(1.1));
+
+        &:hover {
+          @include transform(scale(1.4));
+        }
+      }
+    }
+    &__count {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      text-align: center;
+
+      @include media(lg) {
+        right: 50px;
+        bottom: 0;
+      }
+      @include media(md){
+        right: 15px;
+        bottom: 5px;
+      }
+      @include media(xs){
+        right: 10px;
+        top: 0;
+        bottom: auto;
+      }
+
+      &__number {
+        font-size: 20px;
+        font-weight: 800;
+        @include media(lg) {
+          font-size: 30px;
+        }
+        @include media(md){
+          font-size: 19px;
+        }
+
+
+      }
+      &__description {
+        font-size: 11px;
+        color: #5f5e5e;
+      }
+    }
+  }
+}

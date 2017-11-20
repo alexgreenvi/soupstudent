@@ -1,0 +1,90 @@
+<?php
+/**
+ *
+ * @arParam массив праметров компонента
+ * @arResult массив результата
+ * @arItem массив отдельного элемента
+ */
+
+$arResult = array(
+    array(
+        'id' => '1',
+        'title'=>'Понятность лекций',
+        'desc' =>'Умение объяснять и ясно доносить знания студентам; 1 – ничего не понятно, 10 – все объясняет',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0',
+    ),
+    array(
+        'id' => '2',
+        'desc'=> 'Актуальность и новизна информации; 1 – одни лекции, 10 – использование презентаций, наглядных материалов и др.',
+        'title'=>'Интерес к лекциям',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0'
+    ),
+    array(
+        'id' => '3',
+        'title'=>'Чувство юмора',
+        'desc' =>'Способность видеть смешное в рассказе, окружении или ситуации; 1 - чувство юмора отсутствует , 10 - веселый тип(тётка), не соскучишься',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0',
+        'number_percent'=> '0'
+    ),
+    array(
+        'id' => '4',
+        'desc' => 'Способности побудить студентов к действию; 1 - абсолютно не требовательный, 10 - точное и полное выполнение всех заданий',
+        'title'=>'Требовательность',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0'
+    ),
+    array(
+        'id' => '5',
+        'title'=>'Отношение к студентам',
+        'desc' =>'Легкость общения со студентами; 1 - пары проходят в напряженной обстановке, 10 - одно удовольствие посещать занятия',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0'
+    ),
+    array(
+        'id' => '6',
+        'desc' =>'Посещаемость занятий студентами; 1 - сессия - вчера познакомились, 10 - ходить и только ходить',
+        'title'=>'Посещаемость',
+        'my_number' => '0',
+        'count' => '0',
+        'number' => '0',
+    )
+);
+
+// Выборка
+$arResultTemp = Database::select('all','assess',
+    '', $arParam['table'].'_id="'.$arParam["id"].'"',
+    $arParam['limit'], $arParam['order']);
+
+
+foreach($arResultTemp as $arResultTempItem){
+    for($i=1;$i<=6;$i++) {
+        $arResult[$i-1]['number'] += $arResultTempItem['value_'.$i];
+        if($arResultTempItem['value_'.$i] != 0){ $arResult[$i-1]['count']++ ;}
+
+        // Определяем что ответил пользователь
+        if($arResultTempItem['anonymous_id'] == $_COOKIE['anonymous_id']){
+            $arResult[$i-1]['my_number'] = $arResultTempItem['value_'.$i];
+        }
+    }
+}
+
+
+for($i=0;$i<6;$i++) {
+
+    if ($arResult[$i]['number'] != 0) {
+        $arResult[$i]['number'] = round($arResult[$i]['number'] / $arResult[$i]['count'], 3);
+
+    } else {
+        $arResult[$i]['number'] = 0;
+        $arResult[$i]['number_percent'] = 3;
+    }
+
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://soupstudent.com/sitemap.xml
+Host: soupstudent.com

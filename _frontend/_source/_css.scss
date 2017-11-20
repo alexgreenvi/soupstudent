@@ -1,0 +1,22 @@
+.css {
+  &_relative { position: relative  }
+
+  &_block { display: block}
+
+  &_left  { float: left }
+  &_right { float: right}
+  &_clear { clear: both }
+
+  &_padding         { padding: 20px }
+  &_padding-10      { padding: 10px }
+  &_padding-bottom  { padding-bottom: 20px }
+
+  &_margin-no       { margin: 0 }
+  &_margin          { margin: 20px }
+
+  &_border-radius {
+    @include border-radius(3px);
+  }
+}
+
+

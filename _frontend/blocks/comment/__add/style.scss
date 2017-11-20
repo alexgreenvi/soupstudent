@@ -1,0 +1,56 @@
+&__add {
+  min-height: 45px;
+  margin-bottom: 10px;
+  padding: 10px 0 15px;
+  position: relative;
+  clear: both;
+  border-bottom: 1px dashed #E9E9E9;
+
+  &__images {
+    position: absolute;
+    left: 5px;
+    img {
+      width: 50px;
+      height: 50px;
+      @include border-radius(3px);
+    }
+  }
+  &__main {
+    position: relative;
+    text-align: left;
+    margin-left: 0;
+    @include media(md) {
+      margin-left: 65px;
+    }
+
+    &__text {
+      margin-bottom: 5px;
+      & textarea {
+        width: 100%;
+        padding: 10px;
+
+        min-height: 60px;
+        font-size: 12px;
+        border: 1px solid #efeeea;
+      }
+    }
+    &__license {
+      float: right;
+      display: inline-block;
+      max-width: 220px;
+      vertical-align: middle;
+      font-size: 11px;
+      text-align: right;
+      @include media(md) {
+        float: none;
+        max-width: none;
+        margin-top: 10px;
+      }
+    }
+    &__button {
+      & a {
+        padding: 6px 14px;
+      }
+    }
+  }
+}

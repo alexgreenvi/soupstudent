@@ -1,0 +1,115 @@
+//  Шифтов
+$font:          'PT Sans', sans-serif; // Основной
+$font-2:        false;
+$font-3:        false;
+$font-icon:     'nucleo-outline';     // Шрифт с иконками
+
+// Подключение шрифтов
+// assets > fonts > name > name-val
+@include font('nucleo-outline', normal, normal, '');
+
+
+// Размер шрифта
+$font-size:                    13px         !default; // Стандартый шрифт
+$font-size-small:              0.8571em     !default;
+
+$font-size-h1:                 2.0em        !default;   // ~ 49px
+$font-size-h2:                 1.8em        !default;   // ~ 35px
+$font-size-h3:                 1.5em        !default; // ~ 28px
+$font-size-h4:                 1.514em      !default;   // ~ 24px
+$font-size-h5:                 1.37em       !default;   // ~ 22px
+$font-size-h6:                 1em          !default;   // ~ 14px
+
+$font-light:             300         !default;
+$font-normal:            400         !default;
+$font-semi:              600         !default;
+$font-bold:              800         !default;
+
+$line-height:                   1.55       !default;
+
+// Стандартная цветовая схема
+$background:                    #f7f7f7;
+
+$color:                         #000000   !default;
+$color-link:                    inherit;
+$color-link-hover:              #f03226;
+$color-green:                   #1eb364;
+
+// Массив
+$status: (
+        '': (
+                #bbb,
+                #979797,
+        ),
+        primary:    (
+                #f96332,
+                #fa7a50,
+        ),
+        info:        (
+                #3091f6,
+                #2CA8FF
+        ),
+        success:     (
+                #00a551,
+                #0cbe63
+        ),
+        warning:     (
+                #FFB236,
+                #f96332
+        ),
+        danger:      (
+                #FF3636,
+                #f96332
+        ),
+);
+
+$color-default:                 nth(map-get($status, ''),1);
+$color-default-hover:           nth(map-get($status, ''),2);
+$color-primary:                 nth(map-get($status, primary),1);
+$color-primary-hover:           nth(map-get($status, primary),2);
+$color-info:                    nth(map-get($status, info),1);
+$color-info-hover:              nth(map-get($status, info),2);
+$color-success:                 nth(map-get($status, success),1);
+$color-success-hover:           nth(map-get($status, success),2);
+$color-warning:                 nth(map-get($status, warning),1);
+$color-warning-hover:           nth(map-get($status, warning),2);
+$color-danger:                  nth(map-get($status, danger),1);
+$color-danger-hover:            nth(map-get($status, danger),2);
+
+
+
+// Размеры блоков
+$container-main: 980px;     // Основной блок
+$container-aside: 180px;    // Боковой блок
+$container-margin: 0;       // Отступ межу ними
+
+// Размеры экрана
+$media-size: (
+        xl: 1200px,
+        lg: 992px,
+        md: 758px,
+        sm: 576px,
+        xs: 360px,
+) !default;
+$container-media-size: (
+        xs: 0,
+        sm: 576px,
+        md: 758px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+$container-max-widths: (
+        xs: 100%,
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+) !default;
+
+// Размеры на разные элементы
+$size: ( sm, null , lg);
+
+
+
+
+
