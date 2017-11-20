@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="content__header__description core__links" data-js-core-resize="content__header__description" data-js-core-resize-width="sm">
-                        <p><?=$arResult['name'].' преподает в <a href="/university/'.$arResult['university']['id'].'" title="'.$arResult['university']['name_transcript'].'">'.$arResult['university']['name'].'</a> города <a href="/city/'.$arResult['city']['id'].'" title="'.$arResult['city']['name'].'">'.$arResult['city']['name'].'</a>.<br>'.$arResult['text']?></p>
+                        <p><?=$arResult['name'].' преподает в <a href="/university/'.$arResult['university']['id'].'" title="'.$arResult['university']['name_transcript'].'">'.$arResult['university']['name'].'</a> города <a href="/city/'.$arResult['city']['id'].'" title="'.$arResult['city']['name'].'">'.$arResult['city']['name'].'</a>.'?></p>
                     </div>
                 </div>
                 <div data-js-core-resize-after="content__header__description">
