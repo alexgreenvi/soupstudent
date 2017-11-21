@@ -26,8 +26,8 @@
 
       &__images {
         float: left;
-        width: 65px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         margin-left: -70px;
         overflow: hidden;
         @include border-radius(2px);
@@ -35,16 +35,17 @@
         padding: 5px;
 
         & img {
-          width: 55px;
-          height: 55px;
+          width: 50px;
+          height: 50px;
           @include border-radius(2px);
           display: block;
         }
       }
 
       &__name {
+        margin-top: 4px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 17px;
         color: #1b1b1b;
         text-decoration: none;
         line-height: 1.2em;
@@ -69,32 +70,29 @@
         }
       }
       &__description {
+        padding-right: 90px;
         p {
           word-wrap: break-word;
-          font-size: 14px;
+          font-size: 13px;
           margin-top: 5px;
           line-height: 1.4em;
         }
       }
-    }
-    &__statistic {
-      text-align: right;
-      @include media(lg) {
-        text-align: left;
-      }
-      @include media(lg) {
-        display: block;
-        //margin-top: 10px;
-        //padding-left: 50px;
-      }
-    }
+      &__links {
+        margin-top: 4px;
+        font-weight: bold;
+        color: #a0a3a7;
+        & a {
+          margin-left: 5px; 
 
-    & .core__count {
-      margin-top: 10px;
-      @include media(lg) {
-        margin-top: 2px;
-        margin-left: 4px;
+          &:first-child {
+            margin-left: 0; 
+          }
+        }
       }
+    }
+    & .core__count {
+      float: right;
     }
   }
   &__text {

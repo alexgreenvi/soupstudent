@@ -5,23 +5,19 @@
     margin: 0 5px 5px;
 
     &__number {
-      //font-size: 1.7em;
-      //font-weight: bold;
-      //color: #4e4e4e;
 
-      color: #0366d6;
       display: inline-block;
-      padding: 2px 6px;
-      color: rgba(27,31,35,0.6);
-      background-color: #fff8ea;
-      border-radius: 3px;
-      font-size: 14px;
+      margin-right: 10px;
+      line-height: 12px;
+      color: #a0a3a7;
+      vertical-align: middle;
 
     }
-    &__description {
-      font-size: 11px;
-      line-height: 20px;
-      color: #999;
+    &__icon {
+      display: inline-block;
+      width: 15px;
+      vertical-align: middle;
+      fill: #a0a3a7;
     }
   }
   &_small {
