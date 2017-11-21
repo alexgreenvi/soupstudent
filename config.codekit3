@@ -58,6 +58,13 @@
 		"oAP": "\/.idea\/soupstudent.iml",
 		"oF": 0
 		},
+	"\/.idea\/vcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.idea\/vcs.xml",
+		"oF": 0
+		},
 	"\/.idea\/webServers.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -86,784 +93,6 @@
 		"oA": 2,
 		"oAP": "\/404\/index.php",
 		"oF": 0
-		},
-	"\/_frontend\/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_frontend\/.htaccess",
-		"oF": 0
-		},
-	"\/_frontend\/_source\/_container.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/_container.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/_css.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/_css.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/_form.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/_form.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/_menuMobile.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/_menuMobile.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/_source.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/_source.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__btn-link\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__btn\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__color\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__count\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__form\/__check\/__personal-data\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/__form\/__check\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__form\/__check\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/__form\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__form\/__input\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/__form\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__form\/__select\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/__form\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__form\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__full\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__icon\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__links\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__mobile\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__parallax\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__svg\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__tabs\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/__underlines\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/core\/assets\/css\/style.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_frontend\/_source\/core\/assets\/css\/style.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_frontend\/_source\/core\/assets\/css\/style.min.css.map",
-		"oF": 0
-		},
-	"\/_frontend\/_source\/core\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/libs\/normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/assets\/css\/normalize.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/libs\/slick.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/assets\/css\/slick.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/mixin\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/_source\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_source\/style.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_standart.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_standart.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_variables.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_aside\/__advert\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/_aside\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_aside\/__copyright\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/_aside\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_aside\/__menu\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/_aside\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_aside\/__nav\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/_aside\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_aside\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_footer\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/_header\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/breadcrumbs\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/city\/__list\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/city\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/city\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/comment\/__add\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/comment\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/comment\/__list\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/comment\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/comment\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/content\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/index\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/list\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__about\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__catalog-detail\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__catalog\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__contacts\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__index\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__news-detail\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/__news\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/page\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/page\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/pagination\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/rating\/__add\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/rating\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/rating\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/blocks\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/blocks\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/_frontend\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/_frontend\/style.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/assets\/css\/style.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
 		},
 	"\/adv\/index.php": {
 		"cB": 0,
@@ -1367,6 +596,16 @@
 		"opt": 0,
 		"q": 80
 		},
+	"\/assets\/img\/antoine-barres.jpg": {
+		"ft": 16384,
+		"iS": 468028,
+		"oA": 0,
+		"oAP": "\/assets\/img\/antoine-barres.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
 	"\/assets\/img\/ava.jpg": {
 		"ft": 16384,
 		"iS": 58743,
@@ -1629,6 +868,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/logo.psb",
+		"oF": 0
+		},
+	"\/base.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/base.php",
 		"oF": 0
 		},
 	"\/city\/detail.boot.php": {
@@ -20237,6 +19483,791 @@
 		"oAP": "\/sitemap.xml",
 		"oF": 0
 		},
+	"\/soupstudent\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/soupstudent\/.gitattributes",
+		"oF": 0
+		},
+	"\/source\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/.htaccess",
+		"oF": 0
+		},
+	"\/source\/application\/container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/container.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__btn-link\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__btn\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__color\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__count\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__form\/__check\/__personal-data\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/__form\/__check\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__form\/__check\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/__form\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__form\/__input\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/__form\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__form\/__select\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/__form\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__form\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__full\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__icon\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__links\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__mobile\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__parallax\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__svg\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__tabs\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/__underlines\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/core\/assets\/css\/style.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/source\/application\/core\/assets\/css\/style.min.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/application\/core\/assets\/css\/style.min.css.map",
+		"oF": 0
+		},
+	"\/source\/application\/core\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/css.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/form.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/libs\/normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/assets\/css\/normalize.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/libs\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/assets\/css\/slick.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/menuMobile.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/menuMobile.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/mixin\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/application\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/source.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/source.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/application\/style.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_aside\/__advert\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/_aside\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_aside\/__copyright\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/_aside\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_aside\/__menu\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/_aside\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_aside\/__nav\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/_aside\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_aside\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_footer\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/_header\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/breadcrumbs\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/city\/__list\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/city\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/city\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/comment\/__add\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/comment\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/comment\/__list\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/comment\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/comment\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/content\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/index\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/list\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__about\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__catalog-detail\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__catalog\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__contacts\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__index\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__news-detail\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/__news\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/page\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/page\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/pagination\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/rating\/__add\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/rating\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/rating\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/blocks\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/blocks\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/standart.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/css\/standart.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/style.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/css\/style.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/source\/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/assets\/css\/variables.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/teacher\/add\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -20256,6 +20287,1426 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/teacher\/detail.php",
+		"oF": 0
+		},
+	"\/temp\/.config.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/.config.php",
+		"oF": 0
+		},
+	"\/temp\/.ftpquota": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/.ftpquota",
+		"oF": 0
+		},
+	"\/temp\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/.gitattributes",
+		"oF": 0
+		},
+	"\/temp\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/.gitignore",
+		"oF": 0
+		},
+	"\/temp\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/.htaccess",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.config.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.config.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.htaccess",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.maarve\/.ajax.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.maarve\/.ajax.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.maarve\/.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.maarve\/.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.maarve\/.cron\/.sitemap.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.maarve\/.cron\/.sitemap.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.maarve\/scripts\/fun_old.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.maarve\/scripts\/fun_old.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/.maarve\/scripts\/function.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/.maarve\/scripts\/function.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/assets\/img\/ApercuPro-bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-bold.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/assets\/img\/ApercuPro-light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-light.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/assets\/img\/ApercuPro-mono.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro-mono.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/assets\/img\/ApercuPro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/ApercuPro\/ApercuPro.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/assets\/img\/Baufra-bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-bold.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/assets\/img\/Baufra-light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-light.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/assets\/img\/Baufra-medium.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-medium.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/assets\/img\/Baufra-semibold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Baufra\/Baufra-semibold.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/font-awesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/font-awesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/assets\/img\/fontawesome-webfont.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/fontawesome-webfont.woff2",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/FontAwesome\/FontAwesome.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/FontAwesome\/FontAwesome.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Bold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Bold.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Book.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Book.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Light.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Light.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Medium.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/Gotham\/Gotham-Medium.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBold\/MyriadProBold.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProBoldItalic\/MyriadProBoldItalic.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProItalic\/MyriadProItalic.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProRegular\/MyriadProRegular.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBold\/MyriadProSemiBold.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.eot",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.otf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.ttf",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/css\/fonts\/MyriadPro\/MyriadProSemiBoldItalic\/MyriadProSemiBoldItalic.woff",
+		"oF": 0
+		},
+	"\/temp\/Alex\/css\/maarv.libs\/maarv.animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/maarv.libs\/maarv.animate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/css\/maarv.libs\/maarv.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/maarv.libs\/maarv-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/css\/test.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/test-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/css\/test2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/css\/test2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/error_log": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/error_log",
+		"oF": 0
+		},
+	"\/temp\/Alex\/favicon.png": {
+		"ft": 32768,
+		"iS": 20117,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/assets\/img\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/advert-center.jpg": {
+		"ft": 16384,
+		"iS": 34813,
+		"oA": 0,
+		"oAP": "\/assets\/img\/advert-center.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/advert-center.png": {
+		"ft": 32768,
+		"iS": 67284,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/assets\/img\/advert-center.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/advert-center.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/images\/advert-center.psd",
+		"oF": 0
+		},
+	"\/temp\/Alex\/images\/advert-right.jpg": {
+		"ft": 16384,
+		"iS": 35244,
+		"oA": 0,
+		"oAP": "\/assets\/img\/advert-right.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/advert-right.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/images\/advert-right.psd",
+		"oF": 0
+		},
+	"\/temp\/Alex\/images\/advert.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/images\/advert.psd",
+		"oF": 0
+		},
+	"\/temp\/Alex\/images\/ava.jpg": {
+		"ft": 16384,
+		"iS": 69532,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ava.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/ban-left.jpg": {
+		"ft": 16384,
+		"iS": 19732,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ban-left.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/breadcrumbs.png": {
+		"ft": 32768,
+		"iS": 166,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/breadcrumbs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/content-nav-arrow.png": {
+		"ft": 32768,
+		"iS": 131,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/content-nav-arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/icon-plus-sm.png": {
+		"ft": 32768,
+		"iS": 413,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/icon-plus-sm.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/icon-question-white.png": {
+		"ft": 32768,
+		"iS": 299,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/icon-question-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/link-underline-red.png": {
+		"ft": 32768,
+		"iS": 139,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/link-underline-red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/link-underline-white.png": {
+		"ft": 32768,
+		"iS": 139,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/link-underline-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/control\/link-underline.png": {
+		"ft": 32768,
+		"iS": 139,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/control\/assets\/img\/link-underline.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/elHeader-bg.jpg": {
+		"ft": 16384,
+		"iS": 498026,
+		"oA": 0,
+		"oAP": "\/assets\/img\/elHeader-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/elHeader2-bg.jpg": {
+		"ft": 16384,
+		"iS": 372211,
+		"oA": 0,
+		"oAP": "\/assets\/img\/elHeader2-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/antoine-barres.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/antoine-barres.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 2446,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/img\/assets\/img\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/bruno-abatti.jpg": {
+		"ft": 16384,
+		"iS": 202438,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bruno-abatti.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/clouds.png": {
+		"ft": 32768,
+		"iS": 711666,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/img\/assets\/img\/clouds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/creative-tim-white-slim2.png": {
+		"ft": 32768,
+		"iS": 27181,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/img\/assets\/img\/creative-tim-white-slim2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/daniel-olahh.jpg": {
+		"ft": 16384,
+		"iS": 38656,
+		"oA": 0,
+		"oAP": "\/assets\/img\/daniel-olahh.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/daniel-olahs.jpg": {
+		"ft": 16384,
+		"iS": 342478,
+		"oA": 0,
+		"oAP": "\/assets\/img\/daniel-olahs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/examples\/landing-page.jpg": {
+		"ft": 16384,
+		"iS": 111032,
+		"oA": 0,
+		"oAP": "\/assets\/img\/landing-page.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/examples\/profile-page.jpg": {
+		"ft": 16384,
+		"iS": 126787,
+		"oA": 0,
+		"oAP": "\/assets\/img\/profile-page.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/fabio-mangione.jpg": {
+		"ft": 16384,
+		"iS": 318019,
+		"oA": 0,
+		"oAP": "\/assets\/img\/fabio-mangione.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/ayo-ogunseinde-2.jpg": {
+		"ft": 16384,
+		"iS": 77236,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ayo-ogunseinde-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/clem-onojeghuo-2.jpg": {
+		"ft": 16384,
+		"iS": 81044,
+		"oA": 0,
+		"oAP": "\/assets\/img\/clem-onojeghuo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/clem-onojeghuo-3.jpg": {
+		"ft": 16384,
+		"iS": 68124,
+		"oA": 0,
+		"oAP": "\/assets\/img\/clem-onojeghuo-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/erik-lucatero-2.jpg": {
+		"ft": 16384,
+		"iS": 50741,
+		"oA": 0,
+		"oAP": "\/assets\/img\/erik-lucatero-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/joe-gardner-2.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/joe-gardner-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/faces\/kaci-baum-2.jpg": {
+		"ft": 16384,
+		"iS": 66947,
+		"oA": 0,
+		"oAP": "\/assets\/img\/kaci-baum-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/images\/img\/favicon.ico",
+		"oF": 0
+		},
+	"\/temp\/Alex\/images\/img\/federico-beccari.jpg": {
+		"ft": 16384,
+		"iS": 369071,
+		"oA": 0,
+		"oAP": "\/assets\/img\/federico-beccari.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/fog-low.png": {
+		"ft": 32768,
+		"iS": 204625,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/img\/assets\/img\/fog-low.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/ilya-yakover.jpg": {
+		"ft": 16384,
+		"iS": 370492,
+		"oA": 0,
+		"oAP": "\/assets\/img\/ilya-yakover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/joshua-stannard.jpg": {
+		"ft": 16384,
+		"iS": 498026,
+		"oA": 0,
+		"oAP": "\/assets\/img\/joshua-stannard.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/login-image.jpg": {
+		"ft": 16384,
+		"iS": 160128,
+		"oA": 0,
+		"oAP": "\/assets\/img\/login-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/new_logo.png": {
+		"ft": 32768,
+		"iS": 3557,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/images\/img\/assets\/img\/new_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/placeholder.jpg": {
+		"ft": 16384,
+		"iS": 17964,
+		"oA": 0,
+		"oAP": "\/assets\/img\/placeholder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/soroush-karimi.jpg": {
+		"ft": 16384,
+		"iS": 442281,
+		"oA": 0,
+		"oAP": "\/assets\/img\/soroush-karimi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/img\/uriel-soberanes.jpg": {
+		"ft": 16384,
+		"iS": 244274,
+		"oA": 0,
+		"oAP": "\/assets\/img\/uriel-soberanes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/index-inf.jpg": {
+		"ft": 16384,
+		"iS": 48025,
+		"oA": 0,
+		"oAP": "\/assets\/img\/index-inf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/images\/travel-tours-to-soviets-1939.jpg": {
+		"ft": 16384,
+		"iS": 714619,
+		"oA": 0,
+		"oAP": "\/assets\/img\/travel-tours-to-soviets-1939.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/js\/libs\/fancybox.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/libs\/fancybox.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/js\/libs\/fancybox\/fancybox.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/libs\/fancybox\/fancybox.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/temp\/Alex\/js\/libs\/jquery-3.2.1.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/libs\/jquery-3.2.1.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/js\/libs\/owl.carousel.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/libs\/owl.carousel.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/js\/libs\/owl.carousel\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 3208,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/libs\/owl.carousel\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/temp\/Alex\/js\/maarv.libs\/maarv.animated.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/maarv.libs\/maarv.animated.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/js\/maarv.libs\/maarv.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/maarv.libs\/maarv.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/js\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/temp\/Alex\/js\/scripts.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/temp\/Alex\/local\/.components\/detail\/.default\/.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.components\/detail\/.default\/.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.components\/detail\/.default\/.template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.components\/detail\/.default\/.template.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.components\/list\/.default\/.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.components\/list\/.default\/.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.components\/list\/.default\/.template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.components\/list\/.default\/.template.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/.404.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/.404.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/.404\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/.404\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/.index\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/.index\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/add\/index.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/add\/index.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/add\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/add\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/article\/detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/article\/detail.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/parser_vk\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/parser_vk\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/region\/detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/region\/detail.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/scripsts\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/scripsts\/detail.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/scripsts\/detail.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/scripsts\/detail.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/scripsts\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/scripsts\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/user\/login\/index.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/user\/login\/index.boot.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.pages\/user\/login\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.pages\/user\/login\/index.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.templates\/.footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.templates\/.footer.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.templates\/.header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.templates\/.header.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/local\/.templates\/.right.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/local\/.templates\/.right.php",
+		"oF": 0
+		},
+	"\/temp\/Alex\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/Alex\/robots.txt",
+		"oF": 0
+		},
+	"\/temp\/Alex\/source\/articles\/images\/1-mini.jpg": {
+		"ft": 16384,
+		"iS": 14687,
+		"oA": 0,
+		"oAP": "\/assets\/img\/1-mini.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/source\/articles\/images\/1.jpg": {
+		"ft": 16384,
+		"iS": 48638,
+		"oA": 0,
+		"oAP": "\/assets\/img\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/source\/articles\/images\/2-mini.jpg": {
+		"ft": 16384,
+		"iS": 28364,
+		"oA": 0,
+		"oAP": "\/assets\/img\/2-mini.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/Alex\/source\/articles\/images\/2.jpg": {
+		"ft": 16384,
+		"iS": 97857,
+		"oA": 0,
+		"oAP": "\/assets\/img\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"\/temp\/favicon.png": {
+		"ft": 32768,
+		"iS": 1158,
+		"oA": 0,
+		"oAP": "\/temp\/assets\/img\/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 80
+		},
+	"\/temp\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/index.php",
+		"oF": 0
+		},
+	"\/temp\/php.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/php.ini",
+		"oF": 0
+		},
+	"\/temp\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/robots.txt",
+		"oF": 0
+		},
+	"\/temp\/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/sitemap.xml",
+		"oF": 0
+		},
+	"\/temp\/work.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/temp\/work.php",
 		"oF": 0
 		},
 	"\/terms\/index.php": {
@@ -37419,7 +38870,7 @@
 	"overrideExternalServerCSS": 1,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
-	"sourceFolderName": "_frontend",
+	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

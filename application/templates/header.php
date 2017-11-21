@@ -40,7 +40,7 @@
             </div>
             <div class="container-main">
                 <div class="row">
-                    <div class="col-18 col-lg-16 col-md-24 col-sm-0">
+                    <div class="col-17 col-lg-16 col-md-24 col-sm-0">
                         <div class="header__search" data-js-core-resize="search" data-js-core-resize-width="sm">
                             <form>
                                 <input class="header__search__input" name="header__search" autocomplete="off" placeholder="Введите Ф.И.О преподавателя или название институт">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-8 col-md-none col-sm-24">
+                    <div class="col-7 col-lg-8 col-md-none col-sm-24">
                         <div class="header__donate" data-js-core-resize="header__donate" data-js-core-resize-width="sm">
                             <a href="/donate/" title="Поддержите проект" class="core__btn">Поддержите проект</a>
                         </div>

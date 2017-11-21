@@ -1,5 +1,5 @@
 //  Шифтов
-$font:          'PT Sans', sans-serif; // Основной
+$font:          'Roboto', sans-serif; // Основной
 $font-2:        false;
 $font-3:        false;
 $font-icon:     'nucleo-outline';     // Шрифт с иконками
@@ -79,7 +79,7 @@ $color-danger-hover:            nth(map-get($status, danger),2);
 
 
 // Размеры блоков
-$container-main: 980px;     // Основной блок
+$container-main: 780px;     // Основной блок
 $container-aside: 180px;    // Боковой блок
 $container-margin: 0;       // Отступ межу ними
 
@@ -103,7 +103,7 @@ $container-max-widths: (
         sm: 540px,
         md: 720px,
         lg: 960px,
-        xl: 1140px
+        xl: 1000px
 ) !default;
 
 // Размеры на разные элементы

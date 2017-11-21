@@ -13,7 +13,7 @@
             <div class="rating__add__item">
             <div class="rating__add__item__name"><span><?=$arItem['title']?></span></div>
             <div class="rating__add__item__stars" data-js-assess="<?=$arParam['table']?>" data-js-assess-id="<?=$arParam['id']?>" data-js-assess-value-id="<?=$arItem['id']?>">
-                <?for($i = 1; $i<= 10; $i++):?>
+                <?for($i = 1; $i<= 5; $i++):?>
                 <?
                     $active = null;
                     if($arItem['number'] >= $i AND $arItem['number'] != 0) {
@@ -35,7 +35,7 @@
                 <div class="rating__add__item__count__number"><?=$arItem['number']?></div>
                 <div class="rating__add__item__count__description"><?=$arItem['count']?> человек</div>
             </div>
-            <div class="rating__add__item__description"><p><?=$arItem['desc']?></p></div>
+            <!-- <div class="rating__add__item__description"><p><?=$arItem['desc']?></p></div> -->
         </div>
         <?endforeach;?>
     </div>
