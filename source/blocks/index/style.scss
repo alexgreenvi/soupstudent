@@ -161,6 +161,7 @@
       font-size: 35px;
       display: inline-block;
       line-height: 1.214;
+      font-weight: bold;
       @include media(lg){
           font-size: 22px;
       }

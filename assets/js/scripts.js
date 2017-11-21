@@ -316,7 +316,7 @@ var Assess = {
         });
     },
     ajax: function ($this,$element) {
-        $.post("/local/components/assess/add/ajax.php", {
+        $.post("/application/components/assess/add/ajax.php", {
                 table       : $this.data().table,
                 id          : $this.data().id,
                 value_id    : $element.data().id,
