@@ -1,0 +1,48 @@
+&__list {
+  &__item {
+    @extend .comment__add;
+
+    &__images {
+      @extend .comment__add__images;
+    }
+    &__main {
+      @extend .comment__add__main;
+    }
+    &__user {
+      & a {
+        font-size: 13px;
+        font-weight: bold;
+        color: #333333;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+      }
+      & span {
+        margin-left: 12px;
+        color: #bbb;
+        font-size: 10px;
+        text-transform: lowercase;
+      }
+    }
+    &__date {
+      float: right;
+      font-size: 10px;
+      color: #7d7d7d;
+    }
+    &__text {
+      display: block;
+      line-height: 17px;
+      color: #666;
+      @include media(xs){
+        min-height: 30px;
+      }
+    }
+    &__links {
+      @extend .comment__list__item__main;
+      font-size: 11px;
+      @include media(xs){
+        margin-top: 10px;
+        margin-left: 5px;
+      }
+    }
+  }
+}

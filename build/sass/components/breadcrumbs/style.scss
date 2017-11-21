@@ -1,0 +1,15 @@
+.breadcrumbs {
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 12px;
+  line-height: 20px;
+  & li {
+    display: inline-block;
+    padding-right: 6px;
+    color: #999;
+    &+li {
+      padding-left: 12px;
+      background: url('/assets/img/breadcrumbs/arrow.png') 0 50% no-repeat;
+    }
+  }
+}
