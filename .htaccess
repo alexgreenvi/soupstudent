@@ -1,13 +1,29 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule .* application/boot.php [L]
-	RewriteRule ^([a-z0-9_-]*)*/$ [L]
-	RewriteRule ^([a-z0-9_-]*)*/([a-z0-9_-]*)/$ [L]
+Options -Indexes
+ErrorDocument 404 /404.php
+
+<IfModule mod_php7.c>
+	php_flag allow_call_time_pass_reference 1
+	php_flag session.use_trans_sid off
+
+	#php_value display_errors 1
+
+	php_value mbstring.internal_encoding UTF-8
+	php_value mbstring.func_overload 2
+	php_value max_input_vars 10000
 </IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/app/boot.php$
+	RewriteRule ^(.*)$ /app/boot.php [L]
+</IfModule>
+
 <IfModule mod_dir.c>
-	DirectoryIndex application/boot.php
+	DirectoryIndex /app/boot.php
 </IfModule>
 
 <IfModule mod_expires.c>
@@ -16,9 +32,3 @@
 	ExpiresByType image/gif "access plus 3 day"
 </IfModule>
 
-<IfModule mod_setenvif.c>
-	SetEnv TZ Europe/Moscow
-</IfModule>
-
-Options -Indexes
-ErrorDocument 404 /404/

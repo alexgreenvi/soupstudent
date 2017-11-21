@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "style.min.css",
-	"sources": [
-		"../../__parallax/style.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,SAAS,AAAC,CACR,uBAAuB,CAAE,WAAW,CACpC,eAAe,CAAE,WAAW,CAS7B,AAPC,AAAA,iBAAS,CAJX,AAKE,SALO,CAKP,GAAG,AAAC,CACF,iBAAiB,CAAE,gBAAgB,CAAC,QAAQ,CAC5C,SAAS,CAAE,gBAAgB,CAAC,QAAQ,CACpC,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,kCAAkC,CACxC"
-}
