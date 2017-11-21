@@ -3,6 +3,8 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule .* application/boot.php [L]
+	RewriteRule ^([a-z0-9_-]*)*/$ [L]
+	RewriteRule ^([a-z0-9_-]*)*/([a-z0-9_-]*)/$ [L]
 </IfModule>
 <IfModule mod_dir.c>
 	DirectoryIndex application/boot.php
