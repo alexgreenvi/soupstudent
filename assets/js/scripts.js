@@ -433,7 +433,7 @@ var Search = {
         Search.$list.removeClass('active');
     },
     ajax: function ($this) {
-        $.post("/application/components/list/search/ajax.php", {
+        $.post("/app/components/list/search/ajax.php", {
                 text       : $this.val()
             }
             , onAjaxSuccess);
