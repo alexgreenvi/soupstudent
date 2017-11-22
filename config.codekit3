@@ -934,23 +934,6 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/build\/sass\/assets\/css\/style.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/sass\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/build\/sass\/assets\/css\/style.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/build\/sass\/assets\/css\/style.min.css.map",
-		"oF": 0
-		},
 	"\/build\/sass\/components\/_aside\/__advert\/style.scss": {
 		"aP": 0,
 		"bl": 0,

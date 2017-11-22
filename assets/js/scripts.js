@@ -316,7 +316,7 @@ var Assess = {
         });
     },
     ajax: function ($this,$element) {
-        $.post("/application/components/assess/add/ajax.php", {
+        $.post("/app/components/assess/add/ajax.php", {
                 table       : $this.data().table,
                 id          : $this.data().id,
                 value_id    : $element.data().id,
@@ -551,7 +551,7 @@ var AddTeacher = {
         AddTeacher.ajax($this);
     },
     ajax: function ($this) {
-        $.post("/application/components/add/teacher/ajax.php", {
+        $.post("/app/components/add/teacher/ajax.php", {
                 status       : $this.data('status'),
                 region_id    : $this.data('region_id'),
                 city_id      : $this.data('city_id'),
