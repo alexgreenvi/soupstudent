@@ -12,7 +12,7 @@
         <?foreach ($arResult as $arItem):?>
             <a class="list__search__item" href="<?=$arItem['url']?>" title="<?=$arItem['name']?>">
                 <span class="list__search__item__name"><?=$arItem['name_search']?></span>
-                <span class="list__search__item__inf">ПГЛУ / Пятигорск</span>
+                <span class="list__search__item__inf"><?=$arItem['university']['name']?> / <?=$arItem['city']['name']?></span>
             </a>
         <?endforeach;?>
     <?else:?>

@@ -19,9 +19,6 @@
     position: relative;
     text-align: left;
     margin-left: 0;
-    @include media(md) {
-      margin-left: 65px;
-    }
 
     &__text {
       margin-bottom: 5px;

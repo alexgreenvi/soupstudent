@@ -112,7 +112,7 @@
     }
   }
   &__header {
-    min-height: 125px;
+    min-height: 150px;
     padding: 12px 15px 17px 130px;
     @include media(sm) {
       min-height: 100px;
@@ -151,7 +151,7 @@
     &__title {
       vertical-align: middle;
       margin-bottom: 5px;
-      & h1,
+      & h1 ,
       & span,
       & b {
         display: inline-block;
@@ -179,6 +179,27 @@
         @include media(sm) {
           display: none;
         }
+      }
+      @include media(md) {
+        margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+    &__ball {
+      position: absolute;
+      top: 150px;
+      left: 20px;
+      width: 100px;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      color: #ff2130;
+
+      @include media(sm) {
+        display: block;
+        font-size: 21px;
+        margin: 0;
       }
     }
     &__description {

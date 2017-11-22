@@ -35,7 +35,7 @@
                 <div class="rating__add__item__count__number"><?=$arItem['number']?></div>
                 <div class="rating__add__item__count__description"><?=$arItem['count']?> человек</div>
             </div>
-            <!-- <div class="rating__add__item__description"><p><?=$arItem['desc']?></p></div> -->
+            <div class="rating__add__item__description"><p><?=$arItem['desc']?></p></div>
         </div>
         <?endforeach;?>
     </div>

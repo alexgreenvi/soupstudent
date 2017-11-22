@@ -11,17 +11,15 @@
     &__name {
       padding-right: 70px;
       margin-bottom: 5px;
-      font-size: 13px;
-      font-weight: 400;
+      font-size: 15px;
+      font-weight: bold;
       color: #6b6969;
       @include media(xs){
-        min-height: 45px;
         padding-top: 5px;
       }
     }
     &__description {
-      min-height: 80px;
-      padding-right: 70px;
+      min-height: 60px;
       margin-bottom: 5px;
       font-size: 11px;
 
@@ -50,7 +48,7 @@
       @include transition( 0.3, ease-in-out);
 
       &__icon {
-        width: 17px;
+        width: 19px;
         margin: 3px 0;
         @include media(lg) {
           width: 25px;
@@ -95,11 +93,6 @@
       @include media(md){
         right: 15px;
         bottom: 5px;
-      }
-      @include media(xs){
-        right: 10px;
-        top: 0;
-        bottom: auto;
       }
 
       &__number {
