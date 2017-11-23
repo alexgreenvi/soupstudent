@@ -4,6 +4,7 @@ $(function () {
     coreJsFormCheckbox.init();
     coreJsTabs.init();
     coreJsMobile.init();
+    //coreJSFixed.init();
     Assess.init();
     Comment.init();
     Search.init();

@@ -256,6 +256,41 @@ var coreJsSwitchElement = {
         });
     }
 };
+var coreJSFixed = {
+    init: function () {
+        this.window = $(window);
+        // .....
+        this.$arElements = $('[data-js-fixed]');
+        // .....
+        if(this.$arElements.length) {
+            this.load();
+        }
+    },
+    load: function () {
+        this.$arElements.each(function () {
+            var $this = $(this),
+                top = $this.offset().top;
+
+            $this.data({
+                status:    false,
+                top:       top
+            });
+        });
+        this.activation();
+    },
+    activation: function () {
+        coreJSFixed.window.scroll(function() {
+            coreJSFixed.$arElements.each(function () {
+                var $this = $(this);
+                if (coreJSFixed.window.scrollTop() > $this.data('top')) {
+                    $this.addClass('fixed');
+                } else {
+                    $this.removeClass('fixed');
+                }
+            });
+        });
+    }
+};
 
 var Assess = {
     core: null,

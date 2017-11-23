@@ -5,6 +5,20 @@
     background-size: cover;
     min-height: 80px;
 
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.25);
+        @include media(lg) {
+            background: rgba(0, 0, 0, 0.55);
+        }
+    }
+
     &_index {
         position: absolute;
         top: 0;
@@ -31,11 +45,9 @@
             }
         }
     }
-
     & .container {
         position: relative;
     }
-
     &__logo {
         position: absolute;
         left: 75px;

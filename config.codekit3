@@ -574,7 +574,7 @@
 		},
 	"\/assets\/img\/adverts\/advert-right.jpg": {
 		"ft": 16384,
-		"iS": 35244,
+		"iS": 18509,
 		"oA": 0,
 		"oAP": "\/assets\/img\/advert-right.jpg",
 		"oF": 0,
@@ -816,11 +816,18 @@
 		"oAP": "\/assets\/logo.psb",
 		"oF": 0
 		},
-	"\/base.php": {
+	"\/base_asses.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/base.php",
+		"oAP": "\/base_asses.php",
+		"oF": 0
+		},
+	"\/base_comment.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/base_comment.php",
 		"oF": 0
 		},
 	"\/build\/.htaccess": {
@@ -1641,6 +1648,34 @@
 		"oAP": "\/public\/city\/detail.php",
 		"oF": 0
 		},
+	"\/public\/country\/region\/city\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/country\/region\/city\/detail.boot.php",
+		"oF": 0
+		},
+	"\/public\/country\/region\/city\/university\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/country\/region\/city\/university\/detail.boot.php",
+		"oF": 0
+		},
+	"\/public\/country\/region\/city\/university\/teacher\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/country\/region\/city\/university\/teacher\/detail.boot.php",
+		"oF": 0
+		},
+	"\/public\/country\/region\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/country\/region\/detail.boot.php",
+		"oF": 0
+		},
 	"\/public\/donate\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1660,6 +1695,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/index.php",
+		"oF": 0
+		},
+	"\/public\/institute\/detail.boot.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/institute\/detail.boot.php",
 		"oF": 0
 		},
 	"\/public\/region\/detail.boot.php": {

@@ -96,7 +96,7 @@
                                     )?>
                                 <?endif;?>
                                 <div class="content__title">
-                                    <span>Рекомендации</span>
+                                    <span>Рекомендации и отзывы</span>
                                 </div>
                                 <div class="content__description">
                                     <p>
