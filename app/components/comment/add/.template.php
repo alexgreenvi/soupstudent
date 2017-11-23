@@ -24,7 +24,7 @@
             <a href="/terms/" title="" class="core__link">пользовательским соглашением</a>.
         </div>
         <div class="comment__add__main__button" >
-            <a href="" title="" class="core__btn core__btn_success" data-js-comment-add-button >Добавить рекомендацию</a>
+            <span class="core__btn core__btn_success" data-js-comment-add-button onclick="yaCounterXXXXXX.reachGoal('comment_add'); return true;">Добавить рекомендацию</span>
         </div>
     </div>
     <div data-js-core-resize-after="comment__add__main__license">
