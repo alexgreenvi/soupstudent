@@ -12,7 +12,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/app/ajax.php');
 
     // Проверка значений
     if(empty($arAjax['id']) OR empty($arAjax['value_id'])) $status = false;
-    if($arAjax['value_number'] > 10 OR $arAjax['value_number'] < 0) $status = false;
+    if($arAjax['value_number'] > 5 OR $arAjax['value_number'] < 0) $status = false;
 
     if($status == true ) {
 

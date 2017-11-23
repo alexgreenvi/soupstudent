@@ -19,20 +19,14 @@ $arParam['all'] = Database::count('comment',
     $arParam['table'].'_id="'.$arParam['id'].'"');
 
 for ($i = 0; $i < count($arResult); $i++) {
-    if($arResult[$i]['university_id']) {
-        $arResult[$i]['university'] = Database::select('one','university',
-            array('id','name'), "id = ".$arResult[$i]['university_id'],
-            "", "");
+
+    if($arResult[$i]['anonymous_id'] == $_COOKIE['anonymous_id']){
+        $arResult[$i]['anonymous']['name'] = 'Ваша рекомендация';
+    }else{
+        $arResult[$i]['anonymous']['name'] = 'Аноним';
     }
-    if($arResult[$i]['city_id']){
-        $arResult[$i]['city'] = Database::select('one','city',
-            array('id','name'), "id = ".$arResult[$i]['city_id'],
-            "", "");
-    }
-    if($arResult[$i]['teacher_id']){
-        $arResult[$i]['teacher'] = Database::select('one','teacher',
-            array('id','name'), "id = ".$arResult[$i]['teacher_id'],
-            "", "");
-    }
+
+
+
 
 }

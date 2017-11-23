@@ -61,29 +61,29 @@ $arResult = array(
 // Выборка
 $arResultTemp = Database::select('all','assess',
     '', $arParam['table'].'_id="'.$arParam["id"].'"',
-    $arParam['limit'], $arParam['order']);
+    '', '');
 
 
 foreach($arResultTemp as $arResultTempItem){
     for($i=1;$i<=6;$i++) {
+        // Собораем все ответы
         $arResult[$i-1]['number'] += $arResultTempItem['value_'.$i];
-        if($arResultTempItem['value_'.$i] != 0){ $arResult[$i-1]['count']++ ;}
-
+        // Считаем общее количество
+        if($arResultTempItem['value_'.$i] != 0){
+            $arResult[$i-1]['count']++ ;
+        }
         // Определяем что ответил пользователь
-        if($arResultTempItem['anonymous_id'] == Anonymous::get_id()){
+        if($arResultTempItem['anonymous_id'] == $_COOKIE['anonymous_id']){
             $arResult[$i-1]['my_number'] = $arResultTempItem['value_'.$i];
         }
     }
 }
 
-for($i=0;$i<6;$i++) {
-
+for($i=0;$i<=5;$i++) {
     if ($arResult[$i]['number'] != 0) {
-        $arResult[$i]['number'] = round($arResult[$i]['number'] / $arResult[$i]['count'], 3);
-
+        $arResult[$i]['number'] = round($arResult[$i]['number'] / $arResult[$i]['count'], 2);
     } else {
         $arResult[$i]['number'] = 0;
-        $arResult[$i]['number_percent'] = 3;
     }
 
 }

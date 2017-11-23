@@ -118,6 +118,16 @@ class Database
 
         return static::$mysqli->query("$CODE");
     }
+    public static function delete($table, $where){
+        $CODE = "DELETE FROM $table";
+
+        if (!empty($where)){
+            $CODE .= ' WHERE '.$where;
+            return static::$mysqli->query("$CODE");
+        }else{
+            return false;
+        }
+    }
 }
 function getData($arResult){
     // Страна

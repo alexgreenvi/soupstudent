@@ -20,7 +20,7 @@
                 */ ?>
             <div class="comment__list__item__main">
                 <div class="comment__list__item__date"><?=getDateTime($arItem['date'],'')?></div>
-                <div class="comment__list__item__user"><a href="">Аноним</a><span>неизвестно</span></div>
+                <div class="comment__list__item__user"><b><?=$arItem['anonymous']['name']?></b></div>
                 <div class="comment__list__item__text">
                     <p><?=$arItem['text']?></p>
                 </div>
