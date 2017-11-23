@@ -190,9 +190,25 @@ function getBall($table,$id){
     }
 
     if ($ball != 0) {
-        $ball = round($ball / $count, 3);
+        $ball = round($ball / $count, 2);
     }else{
         $ball = 0;}
 
     return $ball;
+}
+function getBallCount($table,$id){
+    $count = 0;
+    $arResult = Database::select('all','assess',
+        '', $table.'_id="'.$id.'"',
+        '', '');
+
+    foreach($arResult as $arItem){
+        for($i=1;$i<=6;$i++) {
+            if($arItem['value_'.$i] != 0){
+                $count++ ;
+            }
+        }
+    }
+
+    return $count;
 }

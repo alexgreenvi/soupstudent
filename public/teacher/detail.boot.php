@@ -127,7 +127,7 @@ $arBase['view_count']  = $arResult['view_count'] + 1;
 // Обновляем все данные
 if($arResult['date'] !== date("Y-m-d")) {
     $arBase['comment_count'] = Database::count('comment',"teacher_id = '".$arResult['id']."'");
-    $arBase['assess_count'] = Database::count('assess',"teacher_id = '".$arResult['id']."'");
+    $arBase['assess_count'] = getBallCount('teacher',$arResult['id']);
     $arBase['ball'] = getBall('teacher',$arResult['id']);
     $arBase['date'] = date("Y-m-d");
 }

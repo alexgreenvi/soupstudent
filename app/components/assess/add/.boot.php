@@ -85,5 +85,4 @@ for($i=0;$i<=5;$i++) {
     } else {
         $arResult[$i]['number'] = 0;
     }
-
 }

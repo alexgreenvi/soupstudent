@@ -14,7 +14,7 @@ $arResult = Database::select('one', 'university',
 
 // Обновляем все данные
 if($arResult['date'] !== date("Y-m-d")) {
-    $arBase['assess_count']  = Database::count('assess',"university_id = '".$arResult['id']."'");
+    $arBase['assess_count']  = getBallCount('university',$arResult['id']);
     $arBase['comment_count'] = Database::count('comment',"university_id = '".$arResult['id']."'");
     $arBase['teacher_count'] = Database::count('teacher',"university_id = '".$arResult['id']."'");
     $arBase['ball'] = getBall('university',$arResult['id']);

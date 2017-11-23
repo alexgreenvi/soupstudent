@@ -1,6 +1,6 @@
 <? Application::template('','header',
     [
-        'title' => "$arResult[name] - ".$arResult['university']['name'],
+        'title' => "$arResult[name] 🎓 - ".$arResult['university']['name'],
         'description' => "$arResult[name] - отзывы о преподавателе, рейтинг (на основе $arResult[assess_count] отзывов): $arResult[ball], преподает в ".$arResult['university']['name']." г. ".$arResult['city']['name'],
         'keywords' => "оценки, отзывы, $arResult[name],".$arResult['university']['name']
     ]
