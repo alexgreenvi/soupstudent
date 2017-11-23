@@ -6,7 +6,7 @@
  * @arAjax массив отдельного элемента
  */
 // Подключаем ajax >>
-require_once($_SERVER['DOCUMENT_ROOT'] . '/application/ajax.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/app/ajax.php');
 // ..
     $status = true;
 

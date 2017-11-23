@@ -70,12 +70,11 @@ foreach($arResultTemp as $arResultTempItem){
         if($arResultTempItem['value_'.$i] != 0){ $arResult[$i-1]['count']++ ;}
 
         // Определяем что ответил пользователь
-        if($arResultTempItem['anonymous_id'] == $_COOKIE['anonymous_id']){
+        if($arResultTempItem['anonymous_id'] == Anonymous::get_id()){
             $arResult[$i-1]['my_number'] = $arResultTempItem['value_'.$i];
         }
     }
 }
-
 
 for($i=0;$i<6;$i++) {
 

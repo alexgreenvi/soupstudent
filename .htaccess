@@ -1,5 +1,5 @@
 Options -Indexes
-ErrorDocument 404 /404.php
+ErrorDocument 404 /404/
 
 <IfModule mod_php7.c>
 	php_flag allow_call_time_pass_reference 1

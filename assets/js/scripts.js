@@ -357,7 +357,7 @@ var Comment = {
         Comment.ajax(Comment.$add);
     },
     ajax: function ($this) {
-        $.post("/application/components/comment/add/ajax.php", {
+        $.post("/app/components/comment/add/ajax.php", {
                 table       : $this.data().table,
                 id          : $this.data().id,
                 text        : $this.data().text.val()
