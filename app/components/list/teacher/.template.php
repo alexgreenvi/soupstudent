@@ -12,7 +12,7 @@
 ?>
 <ul class="list__teacher core__underlines">
     <?foreach ($arResult as $arItem):?>
-        <li>
+        <li itemprop="alumni" itemscope itemtype="http://schema.org/Person">
         <?
             $character = mb_substr($arItem['name'], 0, 1);
 
@@ -22,7 +22,9 @@
                     <b><?=$character?></b>
                 <?
             } ?>
-        <a href="<?=$arItem['url']?>" title="<?=$arItem['name']?>"><span><?=$arItem['name']?></span></a>
+        <a href="<?=$arItem['url']?>" title="<?=$arItem['name']?>" itemprop="url">
+            <span itemprop="name"><?=$arItem['name']?></span>
+        </a>
     </li>
     <?endforeach;?>
 </ul>
