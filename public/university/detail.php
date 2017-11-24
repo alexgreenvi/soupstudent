@@ -8,7 +8,7 @@
     <div class="container-fluid">
         <div class="container">
             <? Application::template('','aside','');?>
-            <main class="container-main indent-none" itemscope itemtype="http://schema.org/Organization">
+            <main class="container-main indent-none" itemscope itemtype="http://schema.org/CollegeOrUniversity">
                 <? Application::component('breadcrumbs', '', '',
                     [
                         $arResult['region']['name'] => '/region/'.$arResult['region_id'],
@@ -28,7 +28,15 @@
                         <a href="/faq/" title="FAQ" class="content__header__control__question core__btn-link">Ответы на вопросы</a>
                         <a href="/teacher/add/" title="Добавить преподавателя" class="core__btn core__btn_success"><span>Добавить преподавателя</span></a>
                     </div>
-                    <div class="content__header__title"><h1 itemprop="name"><?=$arResult['name']?></h1><b> - </b><span><?=$arResult['ball']?> балл.</span></div>
+                    <div class="content__header__title">
+                        <h1 itemprop="name"><?=$arResult['name']?></h1>
+                        <b> - </b>
+                        <b itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                            <span itemprop="ratingValue"><?=$arResult['ball']?></span>
+                            <span> балл.</span>
+                            <meta itemprop="reviewCount" content="<?=$arResult['assess_count']?>">
+                        </b>
+                    </div>
                     <div class="core__count content__header__count" data-js-core-resize="content__header__count" data-js-core-resize-width="xl">
                         <div class="core__count__item">
                             <div class="core__count__item__number"><b><?=$arResult['teacher_count']?></b></div>
@@ -78,12 +86,14 @@
                                         <span>Информация</span>
                                     </div>
                                     <div class="content__table core__links" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                        <meta itemprop="addressRegion" content="<?=$arResult['region']['name']?>">
                                         <div class="content__table__tr">
                                             <div class="content__table__td">Город:</div>
                                             <div class="content__table__td">
                                                 <a href="/city/<?=$arResult['city']['id']?>" title="<?=$arResult['city']['name']?>">
                                                     <span itemprop="addressLocality"><?=$arResult['city']['name']?></span>
-                                                </a></div>
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="content__table__tr">
                                             <div class="content__table__td">Адрес:</div>

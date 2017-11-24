@@ -12,7 +12,7 @@
 ?>
 <ul class="list__teacher core__underlines">
     <?foreach ($arResult as $arItem):?>
-        <li itemprop="alumni" itemscope itemtype="http://schema.org/Person">
+        <li itemprop="employee" itemscope itemtype="http://schema.org/Person">
         <?
             $character = mb_substr($arItem['name'], 0, 1);
 

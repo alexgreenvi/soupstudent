@@ -8,7 +8,7 @@
     <div class="container-fluid">
         <div class="container">
             <? Application::template('','aside','');?>
-            <main class="container-main indent-none">
+            <main class="container-main indent-none" itemscope itemtype="http://schema.org/Person">
                 <? Application::component('breadcrumbs', '', '',
                     [
                         $arResult['region']['name'] => '/region/'.$arResult['region_id'],
@@ -24,7 +24,14 @@
                     <div class="content__header__control" data-js-core-resize="content__header__control" data-js-core-resize-width="xl">
                         <a href="/faq/" title="FAQ" class="content__header__control__question core__btn-link">Ответы на вопросы</a>
                     </div>
-                    <div class="content__header__title"><h1><?=$arResult['name']?></h1><b> - </b><span><?=$arResult['ball']?> балл.</span></div>
+                    <div class="content__header__title">
+                        <h1 itemprop="name"><?=$arResult['name']?></h1>
+                        <b> - </b>
+                        <b>
+                            <span><?=$arResult['ball']?></span>
+                            <span> балл.</span>
+                        </b>
+                    </div>
                     <div class="core__count content__header__count" data-js-core-resize="content__header__count" data-js-core-resize-width="xl">
                         <div class="core__count__item">
                             <div class="core__count__item__number"><b><?=$arResult['assess_count']?></b></div>
@@ -69,14 +76,22 @@
                                     <div class="content__title">
                                         <span>Информация</span>
                                     </div>
-                                    <div class="content__table core__links">
+                                    <div class="content__table core__links" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                                         <div class="content__table__tr">
                                             <div class="content__table__td">Город:</div>
-                                            <div class="content__table__td"><a href="/city/<?=$arResult['city']['id']?>"><?=$arResult['city']['name']?></a></div>
+                                            <div class="content__table__td">
+                                                <a href="/city/<?=$arResult['city']['id']?>" title="<?=$arResult['city']['name']?>">
+                                                    <span itemprop="addressLocality"><?=$arResult['city']['name']?></span>
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="content__table__tr">
-                                            <div class="content__table__td">Адрес:</div>
-                                            <div class="content__table__td"><a href="/university/<?=$arResult['university']['id']?>"><?=$arResult['university']['name']?></a></div>
+                                            <div class="content__table__td">ВУЗ:</div>
+                                            <div class="content__table__td">
+                                                <a href="/university/<?=$arResult['university']['id']?>" title="<?=$arResult['university']['name']?>">
+                                                    <span><?=$arResult['university']['name']?></span>
+                                                </a>
+                                            </div>
                                         </div>
                                         <div class="content__table__tr">
                                             <div class="content__table__td">Рейтинг ВУЗов:</div>
